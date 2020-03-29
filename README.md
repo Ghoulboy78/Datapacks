@@ -1,7 +1,8 @@
 #### Datapacks:
  - disable_endermen_grief (Endermen can't pick up blocks)
  - universal_dyeing (Adds dye-related recipes, like for hardened clay)
- - sleep (One player sleep, you can wake up people via clicking the chat msg)
+ - sleep (One player sleep, you can wake up people via clicking the chat msg) (not working in 1.15)
+ - multiplayer_sleep (one player sleep) (Works in 1.15)
  - afk_detect (Detects afk ppl, changes color and stops lifetime & timeplayed)
  - slow_tick (Internal datapack, runs the 1 sec and 5 sec clock)
  - disable_cod (All cod is teleported to the void every 5s, their TPS impact was huge)
@@ -10,7 +11,7 @@
  - scoreboards (Scoreboard cycle & triggers, read more bellow)
  - fast_stone [disabled] (Stone & cobble despawns in 5-10 seconds)
  - spectator (Spectator gamemode for everyone)
- - tools (Random tools: entity counter, tps display, unicorn, read more bellow)
+ - tools (Random tools: entity counter, tps display, unicorn (read more bellow), better clock)
  - better_mending (Drops xp while standing on an anvil, allowing mending with your own xp. Player must be minimum lvl 6)
 
 #### Commands:
@@ -39,3 +40,4 @@ The `.Unicorn` trigger will toggle the horn, accepted values:
  
 ##### Spectator
 To toggle between survival and spectator you can use the `.Spectator` trigger, when leaving spectator mode you will be placed where you entered spectator mode.
+It will only allow you to go into spectator if you are not taking damage/falling/drowning
